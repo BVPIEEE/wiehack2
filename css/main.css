@@ -796,9 +796,6 @@ select.error {
 .block-sponsor img {
     width: 85%;
 }
-.block-sponsor span{
-	opacity: .18;
-}
 
 .block-sponsor:hover img, .block-sponsor:hover span{
     opacity: 1;
