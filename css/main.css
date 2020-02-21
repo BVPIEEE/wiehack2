@@ -790,15 +790,11 @@ select.error {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
     flex-direction: column;
 }
 .block-sponsor img {
-    opacity: .18;
     width: 85%;
-}
-.block-sponsor span{
-    opacity: .18;
 }
 
 .block-sponsor:hover img, .block-sponsor:hover span{
