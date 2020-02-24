@@ -1509,6 +1509,9 @@ select.error {
     padding: 12px 20px;
     text-align: center;
     text-transform: lowercase;
+
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 #devfolio-apply-now:not([disabled]) {
