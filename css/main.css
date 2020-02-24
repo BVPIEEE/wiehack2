@@ -1509,6 +1509,7 @@ select.error {
     padding: 12px 20px;
     text-align: center;
     text-transform: lowercase;
+    width: 100%;
 
     margin-left: 50%;
     transform: translateX(-50%);
@@ -1525,4 +1526,11 @@ select.error {
 .regis{
     margin-left: 40%;
     margin-right: 40%;
+}
+
+@media(max-width: 600px)
+{
+    #devfolio-apply-now{
+        width: auto;
+    }
 }
