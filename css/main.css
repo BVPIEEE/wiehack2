@@ -1,29 +1,29 @@
 /*
-*	DESTINY - WEDDING HTML TEMPLATE
-* 	Copyright 2016
-* 	www.mutationmedia.net
-* 	Created by : mutationthemes
+*   DESTINY - WEDDING HTML TEMPLATE
+*   Copyright 2016
+*   www.mutationmedia.net
+*   Created by : mutationthemes
 *
 */
 /* Table of Content
 ==================================================
-	1.Preloader
-	2.Site wrapper
-	3.Hero section
-	4.About section
-	5.Speakers section
-	6.Topics section
-	7.Schedule section
-	8.Countdown section
-	9.Tickets section
-	10.Registry section
-	11.Sponsors section
-	12.Contact section
-	13.Accommodation section
-	14.FAQ section
-	15.Gallery section
-	16.Fat footer section
-	17.Mediaqueries
+    1.Preloader
+    2.Site wrapper
+    3.Hero section
+    4.About section
+    5.Speakers section
+    6.Topics section
+    7.Schedule section
+    8.Countdown section
+    9.Tickets section
+    10.Registry section
+    11.Sponsors section
+    12.Contact section
+    13.Accommodation section
+    14.FAQ section
+    15.Gallery section
+    16.Fat footer section
+    17.Mediaqueries
 
 
 
@@ -790,7 +790,7 @@ select.error {
     display: flex;
     justify-content: center;
     align-items: center;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 .block-sponsor img {
