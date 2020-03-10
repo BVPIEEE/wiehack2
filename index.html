@@ -19,6 +19,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
 	<link rel="icon" href="img/logo/WIEHackLogo.png">
+	<link rel="stylesheet" href = "css/images-style.css" />
+	<!-- script tags for bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  -->
+<!-- end of script tags for bootstrap -->
+
 </head>
 
 <body>
@@ -666,18 +672,22 @@
 
 				<div class="row">
 					<div class="vertical-center">
-						<a href="https://www.wolframalpha.com/" class="block-sponsor">
-							<img src="img/wolfram.png" height="200" width="410" alt="">
+						<div id="btnPopover" data-toggle="popover"  title="Compute expert-level answers using Wolfram’s breakthrough algorithms, knowledgebase and AI technology">
+						<a href="https://www.wolframalpha.com/" class="block-sponsor" 
+						>
+							<img class= "wolfram-images" src="img/wolfram-removebg-preview (1)1.png" height="200" width="410" alt=""
+							>
 						</a>
-						<a href="https://www.creative-tim.com/" class="block-sponsor">
-							<img src="img/Creativetim.png" height="200" width="200" alt="">
+						</div>
+						<a data-toggle="popover"  title="Fully Coded UI Tools to create web and mobile apps" href="https://www.creative-tim.com/" class="block-sponsor">
+							<img  src="img/creative-tim1.png" height="200" width="410" alt="">
 						</a>
-						<a href="https://balsamiq.com/" class="block-sponsor">
+						<a data-toggle="popover"  title="Our goal is to help people create software and websites that are easier to use" href="https://balsamiq.com/" class="block-sponsor" >
 							<img src="https://media.balsamiq.com/files/company/balsamiq-logo-noborder-screen.png" height="200" width="410" alt="">
 						</a>
-						<a href="https://www.axure.com/" class="block-sponsor">
-							<img src="img/Axure_RP_icon.svg" height="200" width="410" alt="">
-							<span><strong>Axure</strong></span>
+						<a data-toggle="popover"  title="Axure RP 9 is the most powerful way to plan,prototype, and hand off to developers, without code." href="https://www.axure.com/" class="block-sponsor">
+							<img  src="img/axure-unedited.svg" height="200" width="410" alt="">
+							<!-- <span><strong>Axure</strong></span> -->
 						</a>
 					</div>
 				</div>
@@ -782,10 +792,12 @@
 				<div class="row">
 					<div class="vertical-center">
 								<a href="#" class="block-sponsor">
-									<img src="img/wie.jpg" height="200" width="410" alt="">
+									<!-- <img src="img/wie.jpg" height="200" width="410" alt=""> -->
+									<img src="img/wie-edited.png" height="200" width="410" alt="">
 								</a>
 							<a href="#" class="block-sponsor">
-									<img src="img/cs.gif" height="200" width="410" alt="">
+									<!-- <img src="img/cs.gif" height="200" width="410" alt=""> -->
+									<img src="img/computer-society-edit.png" height="200" width="410" alt="">
 							</a>
 							<a href="#" class="block-sponsor">
 									<img src="img/ias.gif" height="200" width="410" alt="">
@@ -850,6 +862,14 @@
 		</div>
 		<!-- End wrapper-->
 		<!--Javascript-->
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="popover"]').popover({
+					placement : 'top',
+					trigger : 'hover'
+				});
+			});
+		</script>
 		<script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
 		<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
 		<script src="js/jquery.countdown.min.js" type="text/javascript"></script>
