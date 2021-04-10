@@ -1,0 +1,12 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bvpifcjd/public_html/test/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R font $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp Timeline.pdf $DEPLOYPATH
+    - /bin/cp spondoc.pdf $DEPLOYPATH
+    - /bin/cp rulebook.pdf $DEPLOYPATH
+    - /bin/cp rules.md $DEPLOYPATH
